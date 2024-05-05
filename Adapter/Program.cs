@@ -10,7 +10,7 @@ namespace Adapter
         static void Main(string[] args)
         {
             var logger = new FileLogger<Program>("Log.txt");
-            logger.LogDebug("This is a new log message");
+            logger.LogDebug("Hello ! this is new log message from main program");
 
         }
     }
